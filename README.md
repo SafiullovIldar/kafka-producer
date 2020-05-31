@@ -4,7 +4,7 @@
 
 ### Useful commands:
 - docker exec -it kafka sh - get into kafka pod
-- ls bin - get into bin package
+- cd bin - get into bin package
 - kafka-topics.sh --create --zookeeper zookeeper:2181 --replication-factor 1 --partitions 1 --topic new-topic - create new topic
 - kafka-topics.sh --list --zookeeper zookeeper:2181 - get list of existed topics
     
